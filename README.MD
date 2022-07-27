@@ -12,13 +12,11 @@ David Murillo
 mvn clean test
 ### Debug support
 Create debug configuration in IntelliJ with command: clean test -Dmaven.surefire.debug
-Create Remote JVM Debug
+### Create Remote JVM Debug
 To debug, just execute debug configuration as debug, then when prompted by console, debug with Remote JVM
 
 ### Improvements Roadmap
-* Dependency Injection
 * WebDriver Manager
-* Logging
 * Reports
 * Retries
 * More browsers
